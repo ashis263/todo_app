@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 49, 70);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.newTodo{
+    width: 50%;
+    height: 190px;
+    margin: 50px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:whitesmoke;
+}
+
+input{
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.todos{
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.todoContainer{
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.dlt-btn{
+    padding: 30px 20px;
+}
